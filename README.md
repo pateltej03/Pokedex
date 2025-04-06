@@ -53,7 +53,7 @@ A visually rich, interactive Pokédex app built with SwiftUI. This app was devel
 
 ---
 
-### 🧠 Let’s Connect!
+## 🧠 Let’s Connect!
 
 **Tej Jaideep Patel**  
 B.S. Computer Engineering  
