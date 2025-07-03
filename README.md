@@ -2,54 +2,54 @@
 
 A visually rich, interactive Pokédex app built with SwiftUI. This app was developed for CMPSC 475 at Penn State and explores core SwiftUI concepts such as lists, navigation, data modeling, persistence, and user experience design. It presents Pokémon data in a clean, modular layout and allows users to track which Pokémon they've captured.
 
+---
+
 ## 📱 Features
 
-### 📋 Home View
+### 🧩 Category Browsing & Capturing
 
--   Displays Pokémon organized by type (e.g., Water, Fire, Electric, etc.)
--   Captured Pokémon appear in a dedicated row at the top
--   Tapping a Pokémon card opens a detailed view
--   Cards display a visual indicator (star) if the Pokémon is captured
+-   Pokémon grouped by type (Water, Fire, Electric, etc.)
+-   Captured Pokémon shown in a dedicated top section
+-   Tap any card to view details and capture
+-   Stars visually indicate captured Pokémon
 
-### 🧭 List View
+<img src="./Pokedex_1.gif" width="700" title="Main UI - Capture Flow and Categories">
 
--   Scrollable list of all Pokémon with names, numbers, and thumbnails
--   Each row shows capture status via a star icon
--   Filter Pokémon by type using a type picker menu
+### 🔍 Filtered Listing & Detail Navigation
 
-### 📘 Detail View
+-   View full Pokédex list with type-based filtering
+-   Capture status visible in all views
+-   Detail view shows stats, types, weaknesses, and evolutions
+-   Light/Dark mode support and smooth transitions
 
--   Displays large Pokémon image on a gradient background
--   Shows height and weight with proper formatting
--   Displays all types and weaknesses using color-coded capsules
--   Allows capturing or releasing Pokémon with a toggle button
--   Shows evolutionary predecessors and successors as navigable card rows
+<img src="./Pokedex_2.gif" width="700" title="Filtering and Capture Interaction">
 
-### 🗂 Persistence
+---
 
--   Captured status is saved locally and persists across app launches using JSON file storage in the app’s Documents directory
+## 🛠 Tech Stack
 
-### 🎨 Visual Design
+-   **Language**: Swift
+-   **Frameworks**: SwiftUI, Foundation
+-   **Architecture**: MVVM
+-   **Persistence**: JSON file stored locally via `Codable` and `FileManager`
 
--   Fully supports Light and Dark mode
--   Views are broken into modular, single-responsibility components
--   Linear gradients and rounded shapes create a vibrant look
+---
 
-## 📂 Data Source
+## 📦 Assets & Data
 
--   Pokémon data loaded from `pokedex.json`
--   Each Pokémon has:
-    -   `id`, `name`, `types`, `height`, `weight`
-    -   Optional `weaknesses`, `prev_evolution`, `next_evolution`
-    -   A dynamic `captured` boolean
+-   Pokémon data parsed from `pokedex.json`
+-   Each Pokémon includes:
+    -   ID, name, height, weight, types, weaknesses
+    -   Evolution chain and captured status
 
-## 💡 Technical Highlights
+---
 
--   MVVM architecture for clarity and separation of concerns
--   Reusable view components: Pokémon cards, rows, detail sections
--   Local file persistence with `Codable` and `FileManager`
--   Dynamic filtering with `Picker` and optional `PokemonType?` binding
--   Animations and transitions for a smooth UX
+## 🧠 What I Learned
+
+-   Modular UI and reusability with SwiftUI components
+-   Managing persistent app state via local file storage
+-   View composition with List, Navigation, Picker, and custom rows
+-   Smooth UI/UX with gradient styling and animations
 
 ---
 
