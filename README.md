@@ -13,7 +13,7 @@ A visually rich, interactive Pokédex app built with SwiftUI. This app was devel
 -   Tap any card to view details and capture
 -   Stars visually indicate captured Pokémon
 
-<img src="./Pokedex_1.gif" height="700" title="Main UI - Capture Flow and Categories">
+<img src="./Pokedex_1.gif" style="max-height: 700px;" title="Main UI - Capture Flow and Categories">
 
 ### 🔍 Filtered Listing & Detail Navigation
 
@@ -22,7 +22,7 @@ A visually rich, interactive Pokédex app built with SwiftUI. This app was devel
 -   Detail view shows stats, types, weaknesses, and evolutions
 -   Light/Dark mode support and smooth transitions
 
-<img src="./Pokedex_2.gif" height="700" title="Filtering and Capture Interaction">
+<img src="./Pokedex_2.gif" style="max-height: 700px;" title="Filtering and Capture Interaction">
 
 ---
 
